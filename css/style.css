@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    margin: auto;
+    background-color: rgb(250, 244, 236);
+}
+
+/*--------head-----------*/
+.header {
+    width: 20rem;
+    height: 100vh;
+    background-image: url('../pic/blue.jpg');
+    background-size: cover;
+    position: fixed;
+    z-index: 999;
+}
+
+.h_pic img {
+    padding: 0.1rem;
+    width: 180px;
+}
+
+.h_pic {
+    position: relative;
+    top: 2rem;
+    width: 180px;
+    height: 180px;
+    padding: 1rem;
+    margin: auto;
+    background-color: white;
+    border-radius: 50%;
+    /* overflow: hidden; */
+}
+
+.list {
+    position: relative;
+    margin: auto;
+    width: 80%;
+    top: 5rem;
+}
+
+a {
+    text-decoration: none;
+    color: azure;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+a:hover {
+    color: aquamarine;
+}
+
+li {
+    list-style: none;
+    padding: 1rem;
+}
+
+/*-------right-----------*/
+.right {
+    margin-left: 20rem;
+    width: 100%;
+    /* background-color: antiquewhite; */
+}
+
+.pic {
+    display: flex;
+    height: 400px;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.933);
+    overflow: hidden;
+}
+
+.pic img {
+    background-size: cover;
+    margin: auto;
+    height: inherit;
+}
+
+.main {
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 5rem;
+    width: 80%;
+}
+
+.main p {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main .m_pic img {
+    width: 100%;
+}
